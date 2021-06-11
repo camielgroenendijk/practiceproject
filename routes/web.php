@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BlogsController;
+use App\Http\Controllers\AuthorsController;
+
 
 
 Route::get('/', function () {
@@ -13,7 +15,7 @@ Route::get('/about', function () {
 });
 
 Route::resource('blogs', BlogsController::class);
-
+Route::resource('authors', AuthorsController::class);
 
 
 

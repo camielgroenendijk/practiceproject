@@ -2,19 +2,19 @@
 
 namespace App\Models;
 
-use App\Http\Controllers\BlogsController;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-use App\Models\Author;
+use App\Models\blog;
 
-class blog extends Model
+class Author extends Model
 {
     use HasFactory;
 
     protected $guarded = [];
 
-    public function author()
+    public function blogs()
     {
-        return $this->belongsTo(Author::class);
+        return $this->hasMany(blog::class);
     }
 }
+
