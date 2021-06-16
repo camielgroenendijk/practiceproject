@@ -1,3 +1,4 @@
+@extends('layouts.master')
 <!doctype html>
 <html lang="en">
 <head>
@@ -8,7 +9,29 @@
     <title>Document</title>
 </head>
 <body>
+
 <div class="author">
+    <table class="table table-dark table-striped">
+        <thead>
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">last name</th>
+            <th scope="col">Genre</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach($authors as $author)
+        <tr>
+            <th scope="row">{{$author->id}}</th>
+            <td>{{$author->name}}</td>
+            <td>{{$author->id}}</td>
+            <td>NAME HERE</td>
+        </tr>
+        @endforeach
+        </tbody>
+    </table>
+{{--
     <div class="author">
         @foreach($authors as $author)
             <div class="card" style="width: 18rem;">
@@ -20,7 +43,8 @@
         @endforeach
     </div>
 </div>
+--}}
 
-<a class="btn" href="{{route('authors.create')}}">Create a new post</a>
+<a class="btn" href="{{route('authors.create')}}">Create a new Author</a>
 </body>
 </html>

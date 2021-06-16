@@ -1,3 +1,5 @@
+@extends('layouts.master')
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -8,6 +10,23 @@
     <title>Document</title>
 </head>
 <body>
+<div class="row row-cols-1 row-cols-md-4 g-4">
+    <div class="col">
+        @foreach($blogs as $blog)
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">{{$blog->title}}</h5>
+                <p class="card-text">{{$blog->content}}</p>
+                <a type="button" class="btn btn-outline-primary" href="{{route('blogs.show', $blog->id)}}">Show details</a>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        @endforeach
+    </div>
+</div>
+
+{{--
 <div class="blogs">
     <div class="blog">
         @foreach($blogs as $blog)
@@ -21,7 +40,7 @@
             </div>
         @endforeach
     </div>
-</div>
+</div>--}}
 
 <a class="btn" href="{{route('blogs.create')}}">Create a new post</a>
 </body>

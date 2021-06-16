@@ -6,13 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="67cfd8c3-1c7c-4dad-bb25-22d4049af1fc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/blog.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/blog.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/BlogFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/BlogFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_06_02_080715_create_blogs_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_06_02_080715_create_blogs_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Blogs/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Blogs/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Authors/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Authors/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Authors/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Authors/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Blogs/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Blogs/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +154,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/bootstrap-5.0.1" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -185,7 +183,10 @@
       <workItem from="1623139302932" duration="282000" />
       <workItem from="1623139894064" duration="5741000" />
       <workItem from="1623310413605" duration="2318000" />
-      <workItem from="1623407972888" duration="2686000" />
+      <workItem from="1623407972888" duration="3545000" />
+      <workItem from="1623434395004" duration="4335000" />
+      <workItem from="1623500261399" duration="3968000" />
+      <workItem from="1623761598582" duration="30000" />
     </task>
     <servers />
   </component>
